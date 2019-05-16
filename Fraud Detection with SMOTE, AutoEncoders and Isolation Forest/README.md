@@ -4,4 +4,4 @@ Data: Public dataset from Kaggle Challenge (https://www.kaggle.com/mlg-ulb/credi
 
 Algorithms: Supervised ML - Random Forest, XGBoost, LightGBM with SMOTE (Synthetic Minority Oversampling TEchniques) for handling class imbalance Deep Learning-based Methods - AutoEncoders Unsupervised ML - Local Outlier Factor, Isolation Forest
 
-Results: Unsupervised methods, especially Isolation Forest provides a more robust and stable method for ever-evolving transactions and application credit card fraud
+Conclusion: Fraud detection is one of the most interesting and complex Machine Learning problems. Typically it involves extreme class imbalance which needs to be handled by techniques such as SMOTE. Also, credit card fraud is an ever-evolving beast like Hydra! If you cut one head, 2 other heads will grow back in its place! This means supervised learning framework does not work well becuase the model performance deteriorates very quickly. Unsupervised anamoly detection algorithms such as Isolation Forest show a great potential to develop more robust fraud detection system
